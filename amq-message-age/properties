@@ -1,0 +1,7 @@
+path=<Path-To-ActiveMQ-Executable>/activemq
+token=<SignalFX-API-TOKEN>
+sfx_host=https://ingest.signalfx.com
+interval=3000
+host=tcp://localhost:61616
+host_name=Host1
+broker_name=Broker1
