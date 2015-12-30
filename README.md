@@ -4,7 +4,7 @@ Query activemq for message age metrics and publish them
 
 ## What is this plugin for
 
-This pluging is for reporting messages age in the ActiveMQ-queues.
+This plugin is for reporting messages age in the ActiveMQ-queues.
 It reports two metrics:
 
 - message.age.average - (type:gauge, value in millis) average message age in each queue
