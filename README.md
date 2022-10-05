@@ -1,3 +1,5 @@
+>ℹ️&nbsp;&nbsp;SignalFx was acquired by Splunk in October 2019. See [Splunk SignalFx](https://www.splunk.com/en_us/investor-relations/acquisitions/signalfx.html) for more information.
+
 # activemq-integration
 
 This is a tool that measures the age of messages in ActiveMQ queues, and publishes the results to SignalFx. These metrics are different from the metrics that ActiveMQ reports to JMX: this tool inspects the messages that are waiting to be delivered in each queue, whereas ActiveMQ reports to JMX the ages of only those messages that have been successfully delivered. For this reason, this tool is especially useful for detecting messages that are "stuck" in ActiveMQ queues and unable to be delivered.
